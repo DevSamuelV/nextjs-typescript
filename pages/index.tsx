@@ -1,6 +1,6 @@
 import { Button } from "../ui/Button";
 
-export default function Home() {
+export const Home = () => {
 	return (
 		<div className="flex flex-row justify-center">
 			<h2 className="flex text-4xl font-black">
@@ -10,4 +10,6 @@ export default function Home() {
 			<Button text="hello" />
 		</div>
 	);
-}
+};
+
+export default Home;
